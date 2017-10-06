@@ -14,11 +14,18 @@ class Solution:
                 if target_test == target:
                     print("nums[%d] + nums[%d] = %d" % (m, n, target))
                     return m, n
+                    print("[%d, %d]" % (m, n))
 if __name__ == '__main__':
+    # **********[start] lines dismissed are for self determination**********"
+    #    nums = []
+    #    a = input('Please input list nums:')
+    #    for i in a.split(','):
+    #        nums.append(int(i))
+    #    target = int(input('Please input target:'))
+    #    slt = Solution()
+    #    slt.twoSum(nums, target)
+    # **********[end] lines dismissed are for self determination**********"
     nums = []
-    a = input('Please input list nums:')
-    for i in a.split(','):
-        nums.append(int(i))
-    target = int(input('Please input target:'))
+    target = 0
     slt = Solution()
     slt.twoSum(nums, target)
